@@ -1,4 +1,5 @@
 from input_handler.read_pdf import read_pdf
+from input_handler.read_txt import read_txt
 
 
 class InputHandler(object):
@@ -9,3 +10,7 @@ class InputHandler(object):
         with open(filepath, "rb") as my_pdf:
             self.result = read_pdf(my_pdf)
         return self.result
+
+    def txt(self, filepath):
+        with open(filepath, "r") as my_txt:
+            self.result = read_txt(my_txt)
