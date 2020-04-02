@@ -2,7 +2,7 @@
 
 ## Usage
 ```python
-from input_handler import InputHandler
+from doc_summarizer.input_handler import InputHandler
 in_hd = InputHandler()
 
 # get result in a list
