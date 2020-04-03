@@ -21,7 +21,6 @@ Output: summarized document, could be a PDF file.
 
 ### User Stories
 - I, an editor, want to get key points of a document instead of reading the whole file. :expressionless:
-- I, an reader, want to get key points of a document instead of reading the whole file. :expressionless:
 
 
 ## Install
