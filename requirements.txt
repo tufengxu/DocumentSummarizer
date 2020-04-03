@@ -1,2 +1,4 @@
 numpy
 nltk
+pdfminer3k
+flake8
