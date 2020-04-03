@@ -1,4 +1,5 @@
-from textteaser import TextTeaser
+from doc_summarizer.input_handler import InputHandler 
+from doc_summarizer.textteaser import TextTeaser
 
 
 def test():
