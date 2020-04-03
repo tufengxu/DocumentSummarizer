@@ -15,7 +15,7 @@ General thought:
 
 ## Project Description
 ### Project Function
-Input:  the document to be summarized, should be a PDF file.
+Input:  the document to be summarized, should be a TXT or PDF file.
 
 Output: summarized document, could be a PDF file.
 
