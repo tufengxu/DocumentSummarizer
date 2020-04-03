@@ -1,3 +1,4 @@
+# ignore all empty lines
 def read_txt(txt):
     lines = list()
     for line in txt:

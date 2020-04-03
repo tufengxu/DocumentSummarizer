@@ -1,4 +1,4 @@
-from doc_summarizer.input_handler import read_pdf
+from doc_summarizer.input_handler.read_pdf import read_pdf
 from doc_summarizer.input_handler.read_txt import read_txt
 
 
@@ -15,3 +15,6 @@ class InputHandler(object):
         with open(filepath, "r") as my_txt:
             self.result = read_txt(my_txt)
         return self.result
+
+    def clear(self):
+        self.result.clear()
