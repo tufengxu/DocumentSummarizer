@@ -1,6 +1,7 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+# Pseudo-code
+for development instruction only
 
+```python
 from doc_summarizer.input_handler import InputHandler
 from doc_summarizer.textteaser import TextTeaser
 
@@ -21,3 +22,4 @@ summary = ""
 for sentence in sentences:
     summary += sentence
 print(summary)
+```
