@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from doc_summarizer.input_handler import InputHandler
-from textteaser import TextTeaser
+from doc_summarizer.textteaser import TextTeaser
 
 
 in_hd = InputHandler()
