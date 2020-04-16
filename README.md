@@ -7,6 +7,22 @@ General thought:
 
 ^^ these may change
 
+
+TODO:
+    Input Handler: N/A
+    Output Handler:
+        - implement it
+        - unit test
+    Text Teaser:
+        - add simple usage into doc_summarizer/textteaser/Readme.md
+        - add reference into doc_summarizer/textteaser/Readme.md
+    Text Teaser CN:
+        - add reference into doc_summarizer/textteaser_Chinese/README.md
+        - do we really need "gensim" package?
+    
+    General:
+        - general usage (quick start & api)
+
 -->
 
 
