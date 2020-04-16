@@ -8,3 +8,4 @@ TextTeaserChinese
 
 
 ### Reference
+GitHub: https://github.com/nanpian/textteaser-chinese
