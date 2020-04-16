@@ -1,7 +1,6 @@
 # !/usr/bin/python
 # -*- coding: utf-8 -*-
 import jieba
-from gensim import corpora, models
 
 
 class Parser:
