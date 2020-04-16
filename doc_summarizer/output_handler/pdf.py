@@ -13,7 +13,7 @@ def GeneratePdf(Summary):
     # print(c.getAvailableFonts())
     title="Summary: "
     c.drawString(50,750,title)
-    c.setFont("Times-Roman",16)
+    c.setFont("Courier",16)
     sentences = Summary.split("\n")
     i = 0
     for sentence in sentences:
