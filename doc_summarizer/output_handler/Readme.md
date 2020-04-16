@@ -3,6 +3,6 @@ How to use output_handler
 ```python
 from doc_summarizer.output_handler import OutputHandler
 out_hd = OutputHandler(Summary)
-out_hd.GeneratePdf(filepath)
+out_hd.GeneratePdf()
 ```
 
