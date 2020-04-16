@@ -5,3 +5,4 @@
 ```
 
 ## Reference
+GitHub: https://github.com/IndigoResearch/textteaser
