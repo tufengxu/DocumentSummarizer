@@ -16,6 +16,7 @@ def run():
 
     smrzr = DocSummarizer()
     # fixme : teaser cannot work
+    # try this file: misc/example.txt
     if suffix == ".txt":
         smrzr.txt(filepath)
     else:

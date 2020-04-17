@@ -1,10 +1,10 @@
 import nltk
 import nltk.data
 
-PATH_STOPWORDS = 'textteaser/stopWords.txt'
-PATH_PICKLE_EN = 'textteaser/english.pickle'
-# PATH_STOPWORDS = 'doc_summarizer/textteaser/stopWords.txt'
-# PATH_PICKLE_EN = 'doc_summarizer/textteaser/english.pickle'
+# PATH_STOPWORDS = 'textteaser/stopWords.txt'
+# PATH_PICKLE_EN = 'textteaser/english.pickle'
+PATH_STOPWORDS = 'doc_summarizer/textteaser/stopWords.txt'
+PATH_PICKLE_EN = 'doc_summarizer/textteaser/english.pickle'
 
 
 class Parser(object):
