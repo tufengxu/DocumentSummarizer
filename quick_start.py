@@ -15,7 +15,7 @@ def run():
         raise Exception("Nein! Nein! Nein! Nein! Nein!\nNot a .pdf or .txt file!!")
 
     smrzr = DocSummarizer()
-    # fixme : teaser cannot work
+    # fixme : output failed
     # try this file: misc/example.txt
     if suffix == ".txt":
         smrzr.txt(filepath)
