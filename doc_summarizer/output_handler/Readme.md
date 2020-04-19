@@ -10,7 +10,7 @@ pip install pdfkit  (or pip3 for python3)
 2. Install wkhtmltopdf   
 MacOS: 
 ```
-brew install caskroom/cask/wkhtmltopdf  
+brew cask install wkhtmltopdf
 ```   
 Ubuntu:   
 ```

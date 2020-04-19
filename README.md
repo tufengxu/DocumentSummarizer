@@ -41,7 +41,8 @@ Output: summarized document, could be a PDF file.
 
 ## Install
 ```sh
-$ echo "No No No Not Implemented Yet"
+# For OS X
+$ brew cask install wkhtmltopdf
 ```
 
 
