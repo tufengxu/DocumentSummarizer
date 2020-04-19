@@ -14,14 +14,13 @@ def run():
     if suffix != ".txt" and suffix != ".pdf":
         raise Exception("Nein! Nein! Nein! Nein! Nein!\nNot a .pdf or .txt file!!")
 
-    target_path = "out/output.pdf"
+    target = "output.pdf"
     smrzr = DocSummarizer()
-    # fixme : output failed
     # try this file: misc/example.txt
     if suffix == ".txt":
-        smrzr.txt(filepath, target_path)
+        smrzr.txt(filepath, target)
     else:
-        smrzr.pdf(filepath, target_path)
+        smrzr.pdf(filepath, target)
 
 
 if __name__ == '__main__':
