@@ -1,4 +1,4 @@
-# How to use output_handler
+# How to use OutputHandler
 
 ## Required packages
 1. wkhtmltopdf
