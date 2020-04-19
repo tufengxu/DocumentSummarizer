@@ -12,14 +12,14 @@ MacOS:
 ```
 brew install caskroom/cask/wkhtmltopdf  
 ```   
-    Ubuntu:   
+Ubuntu:   
 ```
 brew install caskroom/cask/wkhtmltopdf   
 ``` 
 
 
 
-3. 
+3. how to use   
 
 ```python
 from doc_summarizer.output_handler import OutputHandler
