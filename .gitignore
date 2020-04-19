@@ -374,3 +374,4 @@ dmypy.json
 .pyre/
 
 
+doc_summarizer/output_handler/unittest.pdf
