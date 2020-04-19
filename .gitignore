@@ -4,8 +4,6 @@
 # SublimeText Vim VisualStudioCode JetBrains
 
 
-out/
-
 
 ### https://raw.github.com/github/gitignore/7ab549fcae8269fdd4004065470176f829d88200/Global/macOS.gitignore
 
@@ -375,3 +373,4 @@ dmypy.json
 
 
 doc_summarizer/output_handler/unittest.pdf
+output.pdf
