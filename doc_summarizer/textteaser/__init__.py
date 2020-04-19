@@ -1,9 +1,10 @@
-# !/usr/bin/python
-# -*- coding: utf-8 -*-
-
 import nltk
 import nltk.data
-import os
+
+# PATH_STOPWORDS = 'textteaser/stopWords.txt'
+# PATH_PICKLE_EN = 'textteaser/english.pickle'
+PATH_STOPWORDS = 'doc_summarizer/textteaser/stopWords.txt'
+PATH_PICKLE_EN = 'doc_summarizer/textteaser/english.pickle'
 
 
 class Parser(object):
@@ -58,7 +59,7 @@ class Parser(object):
         return len(matchedWords) / (len(title) * 1.0)
 
     def splitSentences(self, text):
-        tokenizer = nltk.data.load('/textteaser/english.pickle')
+        tokenizer = nltk.data.load(PATH_PICKLE_EN)
         return tokenizer.tokenize(text)
 
     def splitWords(self, sentence):
@@ -71,7 +72,7 @@ class Parser(object):
         return [word for word in words if word not in self.stopWords]
 
     def getStopWords(self):
-        with open(os.path.dirname(os.path.abspath(__file__)) + '/textteaser/stopWords.txt') as file:
+        with open(PATH_STOPWORDS) as file:
             words = file.readlines()
         return [word.replace('\n', '') for word in words]
 
@@ -118,7 +119,8 @@ class Summarizer(object):
             sentenceLength = self.parser.getSentenceLengthScore(words)
             sentencePosition = self.parser.getSentencePositionScore(i, len(sentences))
             keywordFrequency = (sbsFeature + dbsFeature) / 2.0 * 10.0
-            totalScore = (titleFeature * 1.5 + keywordFrequency * 2.0 + sentenceLength * 0.5 + sentencePosition * 1.0) / 4.0
+            totalScore = (
+                                 titleFeature * 1.5 + keywordFrequency * 2.0 + sentenceLength * 0.5 + sentencePosition * 1.0) / 4.0
 
             summaries.append({
                 # 'titleFeature': titleFeature,

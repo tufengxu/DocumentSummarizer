@@ -1,4 +1,3 @@
-from doc_summarizer.input_handler import InputHandler 
 from doc_summarizer.textteaser import TextTeaser
 
 
@@ -31,7 +30,7 @@ def test():
            "functions that don’t modify server state and don’t have large parameters, but still accept POST requests to " \
            "handle the general case. This way, we’re opportunistically taking advantage of HTTP without tying ourselves " \
            "to it. "
-    
+
     tt = TextTeaser()
     sentences = tt.summarize(title, text)
     summary = ""

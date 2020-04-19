@@ -5,8 +5,6 @@ General thought:
     2. summarize the text file
     3. convert the summarized text into a pdf feedback
 
-^^ these may change
-
 -->
 
 
@@ -24,9 +22,13 @@ Output: summarized document, could be a PDF file.
 
 
 ## Install
+### OS X
 ```sh
-$ echo "No No No Not Implemented Yet"
+$ brew cask install wkhtmltopdf
 ```
+
+### Otherwise
+Please go to the [wkhtmltopdf download page](https://wkhtmltopdf.org/downloads.html)
 
 
 ## Usage
@@ -34,14 +36,38 @@ $ echo "No No No Not Implemented Yet"
 As an independent program running in the console:
 
 ```sh
-$ echo "No No No Not Implemented Yet"
+# You can simply try this file: misc/example.txt
+
+$ python quick_start.py
+Where is your file?
+Path: misc/example.txt
+Loading pages (1/6)
+Counting pages (2/6)                                               
+Resolving links (4/6)                                                       
+Loading headers and footers (5/6)                                           
+Printing pages (6/6)
+Done
 ```
 
-### API
-As an module called by other program:
+Now there is a PDF file called `output.pdf` in the current directory.
 
-```sh
-$ echo "No No No Not Implemented Yet"
+### API
+As a module called by other program:
+
+```python
+from doc_summarizer import DocSummarizer
+
+smrzr = DocSummarizer()
+
+# note that the target is file name, not the path!! 
+target = "output.pdf" 
+filepath_txt = "/path/to/input.txt"
+filepath_pdf = "/path/to/input.pdf"
+
+# dealing with .txt files
+smrzr.txt(filepath_txt, target)
+# dealing with .pdf files
+smrzr.pdf(filepath_pdf, target)
 ```
 
 
