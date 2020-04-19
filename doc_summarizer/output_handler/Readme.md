@@ -8,11 +8,13 @@ https://wkhtmltopdf.org/downloads.html
 ## Usage
 ```python
 from doc_summarizer.output_handler import OutputHandler
-out_hd = OutputHandler(Summary)
+out_hd = OutputHandler(Summary, filepath)
+//filepath == "./test.pdf"
 out_hd.GeneratePdf()
 ```
 
 ## Input format
 string
 
-
+## Reference:   
+https://github.com/JazzCore/python-pdfkit
