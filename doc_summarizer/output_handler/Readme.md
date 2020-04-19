@@ -3,16 +3,23 @@ How to use output_handler
 
 ## Usage   
 
-1. pip install pdfkit  (or pip3 for python3)   
+1. Install pdfkit
+```python
+pip install pdfkit  (or pip3 for python3)   
+```
 2. Install wkhtmltopdf   
-MacOS:   
-brew install caskroom/cask/wkhtmltopdf   
+MacOS: 
+```
+brew install caskroom/cask/wkhtmltopdf  
+```   
 Ubuntu:   
+```
 brew install caskroom/cask/wkhtmltopdf   
+``` 
 
 
 
-
+3. 
 
 ```python
 from doc_summarizer.output_handler import OutputHandler
