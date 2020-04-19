@@ -14,7 +14,7 @@ brew cask install wkhtmltopdf
 ```   
 Ubuntu:   
 ```
-brew install caskroom/cask/wkhtmltopdf   
+sudo apt-get install wkhtmltopdf   
 ``` 
 
 
