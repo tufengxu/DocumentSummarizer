@@ -12,7 +12,7 @@ MacOS:
 ```
 brew install caskroom/cask/wkhtmltopdf  
 ```   
-Ubuntu:   
+    Ubuntu:   
 ```
 brew install caskroom/cask/wkhtmltopdf   
 ``` 
