@@ -49,6 +49,8 @@ Printing pages (6/6)
 Done
 ```
 
+Now there is a PDF file called `output.pdf` in the current directory.
+
 ### API
 As a module called by other program:
 
