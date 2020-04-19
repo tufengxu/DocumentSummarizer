@@ -1,5 +1,18 @@
 How to use output_handler
-## Usage
+
+
+## Usage   
+
+1. pip install pdfkit  (or pip3 for python3)   
+MacOS:   
+brew install caskroom/cask/wkhtmltopdf   
+Ubuntu:   
+brew install caskroom/cask/wkhtmltopdf   
+
+
+
+
+
 ```python
 from doc_summarizer.output_handler import OutputHandler
 out_hd = OutputHandler(Summary, filepath)
@@ -7,3 +20,5 @@ out_hd = OutputHandler(Summary, filepath)
 out_hd.GeneratePdf()
 ```
 
+reference:   
+https://github.com/JazzCore/python-pdfkit
