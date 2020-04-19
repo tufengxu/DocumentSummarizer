@@ -1,26 +1,11 @@
-How to use output_handler
+# How to use OutputHandler
 
+## Required packages
+1. wkhtmltopdf
+https://wkhtmltopdf.org/downloads.html
+2. pdfkit
 
-## Usage   
-
-1. Install pdfkit
-```python
-pip install pdfkit  (or pip3 for python3)   
-```
-2. Install wkhtmltopdf   
-MacOS: 
-```
-brew cask install wkhtmltopdf
-```   
-Ubuntu:   
-```
-sudo apt-get install wkhtmltopdf   
-``` 
-
-
-
-3. how to use   
-
+## Usage
 ```python
 from doc_summarizer.output_handler import OutputHandler
 out_hd = OutputHandler(Summary, filepath)
@@ -28,5 +13,8 @@ out_hd = OutputHandler(Summary, filepath)
 out_hd.GeneratePdf()
 ```
 
-reference:   
+## Input format
+string
+
+## Reference:   
 https://github.com/JazzCore/python-pdfkit
