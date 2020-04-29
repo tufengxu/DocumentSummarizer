@@ -75,3 +75,6 @@ smrzr.pdf(filepath_pdf, target)
 - [@E1visz](https://github.com/E1visz)
 - [@JWangNov](https://github.com/JWangNov)
 - [@tufengxu](https://github.com/tufengxu)
+
+## Reference
+TextTeaser: https://github.com/IndigoResearch/textteaser
