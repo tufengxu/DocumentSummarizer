@@ -78,4 +78,4 @@ smrzr.pdf(filepath_pdf, target)
 
 ## Reference
 TextTeaser: https://github.com/IndigoResearch/textteaser   
-GitHub: https://github.com/nanpian/textteaser-chinese   
+TextTeaser Chinese: https://github.com/nanpian/textteaser-chinese   
