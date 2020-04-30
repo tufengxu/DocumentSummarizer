@@ -77,4 +77,5 @@ smrzr.pdf(filepath_pdf, target)
 - [@tufengxu](https://github.com/tufengxu)
 
 ## Reference
-TextTeaser: https://github.com/IndigoResearch/textteaser
+TextTeaser: https://github.com/IndigoResearch/textteaser   
+GitHub: https://github.com/nanpian/textteaser-chinese   
