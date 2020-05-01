@@ -17,6 +17,9 @@ Input:  the document to be summarized, should be a TXT or PDF file.
 
 Output: summarized document, could be a PDF file.
 
+Architecture: 
+<img src="./misc/Architecture.png">
+
 ### User Stories
 - I, an editor, want to get key points of a document instead of reading the whole file. :expressionless:
 
@@ -75,3 +78,7 @@ smrzr.pdf(filepath_pdf, target)
 - [@E1visz](https://github.com/E1visz)
 - [@JWangNov](https://github.com/JWangNov)
 - [@tufengxu](https://github.com/tufengxu)
+
+## Reference
+TextTeaser: https://github.com/IndigoResearch/textteaser   
+TextTeaser Chinese: https://github.com/nanpian/textteaser-chinese   
