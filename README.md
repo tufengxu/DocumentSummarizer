@@ -18,7 +18,7 @@ Input:  the document to be summarized, should be a TXT or PDF file.
 Output: summarized document, could be a PDF file.
 
 Architecture: 
-<img src=".misc/Architecture.png">
+<img src="./misc/Architecture.png">
 
 ### User Stories
 - I, an editor, want to get key points of a document instead of reading the whole file. :expressionless:
